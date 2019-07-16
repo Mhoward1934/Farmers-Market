@@ -1,0 +1,38 @@
+.header {
+  background-image: url("../images/barn-clouds-color-248832.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+}
+
+.header h1 {
+    font-size: 80px;
+    font-family: fantasy;
+    padding-top: 100px;
+    color: green;
+    margin-left: 100px;
+}
+
+#about {
+    height: 400px;
+    padding-top: 50px;
+}
+
+#produce {
+    height: 400px;
+    padding-top: 50px;
+}
+
+#events {
+    height: 400px;
+    padding-top: 50px;
+}
+
+#contact {
+    height: 400px;
+    padding-top: 50px;
+}
