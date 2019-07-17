@@ -11,6 +11,7 @@
   font-family: fantasy;
   padding-top: 100px;
   color: green;
+  text-shadow: 2px 2px grey;
   margin-left: 100px;
 }
 
@@ -28,15 +29,37 @@
   background-attachment: fixed;
 }
 
+#produce card {
+  box-shadow: 0 4px 8px 0px rgba(17, 17, 32, 0.2),
+    0 6px 20px 0 rgba(17, 17, 32, 0.4);
+}
+
 #events {
   padding: 100px;
+  background-color: rgb(231, 243, 239);
 }
 
 #contact {
   padding: 100px;
+  color: yellow;
+  background-image: url("../images/cherry-tomatoes-close-up-colors-1327838.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact h2 {
+    color: rgb(48, 53, 129);
 }
 
 .carousel-item img {
-    width: 600px;
-    height: 600px;
+  width: 600px;
+  height: 600px;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 4px;
 }
