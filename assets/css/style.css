@@ -8,11 +8,13 @@
 
 .header h1 {
   font-size: 80px;
-  font-family: fantasy;
   padding-top: 100px;
   color: navy;
   text-shadow: 2px 2px grey;
   margin-left: 100px;
+}
+.header span {
+  font-family: fantasy;
 }
 
 #about {
@@ -71,7 +73,7 @@
     width: 100%;
   }
   
-  @media only screen and (min-width: 600px) {
+  @media screen and (min-width: 600px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -87,7 +89,7 @@
     .col-s-12 {width: 100%;}
   }
   
-  @media only screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -130,5 +132,13 @@
 
       div.about {
           padding: 15px;
+      }
+
+      div.about h3 {
+        font-size: 18px;
+      }
+
+      div.about h4 {
+        font-size: 12px;
       }
   }
