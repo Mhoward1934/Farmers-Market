@@ -118,6 +118,20 @@
       div.about {
           padding: 50px;
       }
+
+      div#produce {
+          background-image: url("../images/brown-close-up-hd-wallpaper-172289.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+      }
+
+      div#contact {
+          background-image: url("../images/cherry-tomatoes-close-up-colors-1327838.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+      }
   }
 
   @media screen and (max-width: 500px) {
@@ -140,5 +154,19 @@
 
       div.about h4 {
         font-size: 12px;
+      }
+
+      div#produce {
+        background-image: url("../images/brown-close-up-hd-wallpaper-172289.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
+
+      div#contact {
+        background-image: url("../images/cherry-tomatoes-close-up-colors-1327838.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
       }
   }
